@@ -3,34 +3,39 @@ import React, { useState } from 'react';
 const dishes = [
     {
         name: 'Fajita Tacos',
-        review: 'Tacos are my favorite food, so this was obviously a hit. Used chicken thighs instead of breasts because they are juicier (cheaper).',
+        review: 'Tacos are my favorite food, so this was obviously a hit. Used chicken thighs instead of breasts because they are juicier (cheaper). 10/10',
         image: `${process.env.PUBLIC_URL}/img/food/fajita_tacos.png`,
     },
     {
-        name: 'fried_rice',
-        review: 'My second favorite food, but first time putting a fried egg on top. It was a great addition. Probably the best fried rice I\'ve made.',
+        name: 'Fried Rice',
+        review: 'My second favorite food, but first time putting a fried egg on top. It was a great addition. Probably the best fried rice I\'ve made. 10/10',
         image: `${process.env.PUBLIC_URL}/img/food/fried_rice.png`,
     },
     {
         name: 'Gnocchi',
-        review: 'First time making any pasta from scratch. Used a tomato basil sauce. Took longer than expected, but worth it.',
+        review: 'First time making any pasta from scratch. Used a tomato basil sauce. Took longer than expected, but worth it. 9/10',
         image: `${process.env.PUBLIC_URL}/img/food/gnocchi.png`,
     },
     {
         name: 'Meatballs',
-        review: 'First time making meatballs. Made them to accompany the gnocchi, and topped with the same tomato basil sauce. Super good, superprisingly easy.',
+        review: 'First time making meatballs. Made them to accompany the gnocchi, and topped with the same tomato basil sauce. Super good, superprisingly easy. 9/10',
         image: `${process.env.PUBLIC_URL}/img/food/meatballs.png`,
     },
     {
         name: 'Shredded Chicken',
-        review: 'Where have crock pots been all my life? Chicken thigh, taco seasoning, and salsa. 6 hours later, shredded chicken for tacos. So easy, so juicy, so good.',
+        review: 'Where have crock pots been all my life? Chicken thigh, taco seasoning, and salsa. 6 hours later, shredded chicken for tacos. So easy, so juicy, so good, but flavors aren\'t very complex. 8/10',
         image: `${process.env.PUBLIC_URL}/img/food/shredded_chicken.png`,
     },
     {
         name: 'Spaghetti',
-        review: 'Spaghetti is spaghetti. It was delicious, but should\'ve let my sauce simmer longer.',
+        review: 'Spaghetti is spaghetti. It was delicious, but should\'ve let my sauce simmer longer and made too much pasta for the amount of sauce I had. 7/10',
         image: `${process.env.PUBLIC_URL}/img/food/spaghetti.png`,
     },
+    {
+        name: '"Chili"',
+        image: `${process.env.PUBLIC_URL}/img/food/chili.png`,
+        review: 'This is my crock pot chili featuring a recipe from my sous chef, ChatGPT... So it turns out Chat is not always right. This chili did not have enough liquid because it told me to put in one can of diced tomatoes, instead of two-three. It it still good when I pair it up with rice or elbow macaroni, but it isn\'t really chili. Definitely will be fact checking ChatGPT in the future. 5/10',
+    }
 ];
 
 const Food = () => {
